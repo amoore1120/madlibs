@@ -1,0 +1,91 @@
+/***** instructions in header*****/
+Header {
+    background: rgb(88, 24, 69);
+    background: radial-gradient(circle, rgba(88, 24, 69, 1) 0%, rgba(199, 0, 57, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/***** Java Java Madlibs Title in header *****/
+h1 {
+    color: #FF5733;
+    font-size: xx-large;
+}
+
+/***** instructions in header*****/
+h2 {
+    color: #FFC300;
+    font-size: larger
+}
+
+/***** input box color *****/
+input[type="text"] {
+    background-color: #FFC300;
+}
+
+/***** form styling *****/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/***** body *****/
+body {
+    align-content: center;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: #6F4E37;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill='%23581845' cx='45' cy='45' r='10'/%3E%3Cg fill='%23900C3F' fill-opacity='1'%3E%3Ccircle cx='0' cy='90' r='10'/%3E%3Ccircle cx='90' cy='90' r='10'/%3E%3Ccircle cx='90' cy='0' r='10'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/*****  answer (paragraph) in body *****/
+p {
+    color: #FFC300;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background: rgb(88, 24, 69);
+    background: radial-gradient(circle, rgba(88, 24, 69, 1) 0%, rgba(199, 0, 57, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    text-align: center;
+}
+
+
+/***** color codes for colors
+   light green
+        HEX= #DAF7A6 RGB= 218, 247, 166
+    yellow       
+        HEX= #FFC300 RGB= 255, 195, 0
+   orange       
+        HEX= #FF5733 RGB= 255, 87, 51
+   red
+        HEX= #C70039 RGB= 199, 0, 57
+   maroon
+        HEX= #900C3F RGB= 144, 12, 63
+   purple
+        HEX= #581845 RGB= 88, 24, 69
+    brown
+        HEX= 6F4E37 rgb(111, 78, 55)
+*****/
