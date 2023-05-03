@@ -50,11 +50,22 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 
-    background-color: #6F4E37;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill='%23581845' cx='45' cy='45' r='10'/%3E%3Cg fill='%23900C3F' fill-opacity='1'%3E%3Ccircle cx='0' cy='90' r='10'/%3E%3Ccircle cx='90' cy='90' r='10'/%3E%3Ccircle cx='90' cy='0' r='10'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: rgba(111, 78, 55, 1);
+
+    /* adjust the size, position, and color of the dots by changing the values in the background-size, background-position, and background-image properties   */
+    background-image: radial-gradient(circle at 10px 10px, #581845 2px, transparent 5px), radial-gradient(circle at 30px 30px, #C70039 2px, transparent 5px), radial-gradient(circle at 50px 10px, #900C3F 6px, transparent 5px), radial-gradient(circle at 70px 30px, #FF5733 6px, transparent 5px);
+    background-size: 85px 85px;
+    /*  doubled my original height and happy accident of dot in dot since I unintentionally doubled the background image. add an extra 5px to each and its a slight overlap. happy accidents = learning */
+    background-position: 0 0, 20px 20px, 40px 0, 60px 20px, 80px 0;
+    background-repeat: repeat
 }
 
-/*****  answer (paragraph) in body *****/
+/* old from background from code generator helped learn new version. 
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill='%23581845' cx='45' cy='45' r='10'/%3E%3Cg fill='%23900C3F' fill-opacity='1'%3E%3Ccircle cx='0' cy='90' r='10'/%3E%3Ccircle cx='90' cy='90' r='10'/%3E%3Ccircle cx='90' cy='0' r='10'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3C/g%3E%3C/svg%3E");*/
+
+
+/*****  banner for answer (paragraph) in body *****/
 p {
     color: #FFC300;
     text-align: center;
