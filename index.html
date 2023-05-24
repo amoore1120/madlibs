@@ -5,50 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="photos/" />
     <title>Java Java Madlibs</title>
+
+
+
+    <!--    google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- sharpie font-->
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- font family -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nanum+Brush+Script&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <!-- header cursive -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!--    google icon   -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--    ext pages   -->
     <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 
-<header>
-    <h1> Java Java Madlibs </h1>
-
-    <h2>Instructions: add the described word to each box. Be creative with your answers!</h2>
-    <style !important background-color="black"></style>
-</header>
-
 <body>
+    <header>
+        <h1> Java Java Madlibs </h1>
+        <h2>Instructions: add the word type to each box. <br> Be creative with your answers!</h2>
+    </header>
     <div class="form-container">
-        <form>
-            <ol>
-                <li><input type="text" placeholder="verb" id="textOne"></li>
-                <li><input type="text" placeholder="type_of_feeling" id="textTwo"></li>
-                <li><input type="text" placeholder="adjective" id="textThree"></li>
-                <li><input type="text" placeholder="adjective" id="textFour"></li>
-                <li><input type="text" placeholder="noun" id="textFive"></li>
-                <li><input type="text" placeholder="flavor" id="textSix"></li>
-                <li><input type="text" placeholder="type of food" id="textSeven"></li>
-                <li><input type="text" placeholder="something you read" id="textEight"></li>
-                <li><input type="text" placeholder="adjective" id="textNine"></li>
-                <li><input type="text" placeholder="adjective" id="textTen"></li>
-                <li><input type="text" placeholder="type of monster" id="textEleven"></li>
+        <form id="myForm">
+            <ol class="form-columns">
+                <li><input type="text" class="madlibs" placeholder="verb" id="verb" required></li>
+                <li><input type="text" class="madlibs" placeholder="type of feeling" id="feeling" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj1" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj2" required></li>
+                <li><input type="text" class="madlibs" placeholder="noun" id="noun" required></li>
+                <li><input type="text" class="madlibs" placeholder="flavor" id="flavor" required></li>
+                <li><input type="text" class="madlibs" placeholder="type of food" id="food" required></li>
+                <li><input type="text" class="madlibs" placeholder="something you read" id="read" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj3" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj4" required></li>
+                <li><input type="text" class="madlibs" placeholder="type of monster" id="monster" required></li>
                 <button type="button" id="button" onclick="createParagraph()">Let the hilarity ensue!</button>
             </ol>
         </form>
+    </div>
 
-        <div id="answer">
+    <!--  <h6> This is a font test. uncomment then style in css under h6</h6> -->
 
-            <p>
-                Do not ___1___ to me before I have had my coffee!
-                Before I get my first sip, I am ___2___.
-                If I do not get to practice my morning routine, then the day is sure to be ___3___.
-                First, I get my ___4___ ___5___ mug.
-                Then, I brew some ___6___ coffee.
-                Next, I mix in ___7__.
-                I enjoy drinking this coffee while reading ___8___.
-                Once the ritual is complete, I feel ___9___.
-                When I miss my java break, I turn into a ___10___ ___11___.
+    <div id="answer">
+        <!--    <p id='story'><br>
+                Do not ______ to me before I have had my coffee!<br>
+                Before I get my first sip, I am ______.<br>
+                If I do not get to practice my morning routine, then the day is sure to be ______. <br>
+                First, I get my ______ ______ mug. <br>
+                Then, I brew some ______ coffee. <br>
+                Next, I mix in _____. <br>
+                I enjoy drinking this coffee while reading ______. <br>
+                Once the ritual is complete, I feel ______. <br>
+                When I miss my java break, I turn into a ___1___ ______. <br>
+                <br>
             </p>
-        </div>
+        -->
+    </div>
+    <script src="app.js"></script>
+
 </body>
 
 </html>
