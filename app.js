@@ -10,9 +10,10 @@ function createParagraph() {
     var wordNine = document.getElementById("adj3").value;
     var wordTen = document.getElementById("adj4").value;
     var wordEleven = document.getElementById("monster").value;
-    
+
 /* (var name) can be the same name as (getElementbyId value) 
      ex - var wordEleven = document.getElementById("wordEleven").value;
+    * even though they can be named the same, the best practice is to give them different names so it's easier to follow the code. If someone else is reading the code it would be difficult for them to follow along  
 */
     var paragraph = '<p>Do not ' + '<span class="highlight">' + wordOne + '</span>' + ' to me before I have had my coffee! Before I get my first sip, I am ' + '<span class="highlight">' + wordTwo + '</span>' + '. If I do not get to practice my morning routine, then the day is sure to be ' + '<span class="highlight">' + wordThree + '</span>' + '. First, I get my ' + '<span class="highlight">' + wordFour +'</span>' + ' ' + '<span class="highlight">' +  wordFive + '</span>' + ' mug. Then, I brew some ' + '<span class="highlight">' + wordSix + '</span>' + ' coffee. Next, I mix in ' + '<span class="highlight">' + wordSeven + '</span>' + '. I enjoy drinking this coffee while reading ' + '<span class="highlight">' + wordEight + '</span>' + '. Once the ritual is complete, I feel ' + '<span class="highlight">' + wordNine + '</span>' + '. When I miss my java break, I turn into a ' + '<span class="highlight">' + wordTen + '</span>' + ' ' + '<span class="highlight">' + wordEleven + '</span>' + '.</p>';
 
