@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="photos/transparent_cup.jpg"/>
+    <link rel="icon" type="image/x-icon" href="photos/transparent_cup.jpg" />
     <title>Java Java Madlibs</title>
 
 
 
-    <!--    google fonts   -->
+    <!--    google font LINKS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- sharpie font-->
@@ -32,10 +32,15 @@
 </head>
 
 <body>
+
+
     <header>
         <h1> Java Java Madlibs </h1>
         <h2>Instructions: add the word type to each box. <br> Be creative with your answers!</h2>
     </header>
+
+
+
     <div class="form-container">
         <form id="myForm">
             <ol class="form-columns">
@@ -51,33 +56,35 @@
                 <li><input type="text" class="madlibs" placeholder="adjective" id="adj3" required></li>
                 <li><input type="text" class="madlibs" placeholder="adjective" id="adj4" required></li>
                 <li><input type="text" class="madlibs" placeholder="type of monster" id="monster" required></li>
-                <button type="button" id="button" value="submit" onclick="createParagraph()">Let the hilarity ensue!</button>
+                <button type="button" id="button" value="submit" onclick="createParagraph()">Let the hilarity
+                    ensue!</button>
             </ol>
         </form>
     </div>
 
-    <!--  <h6> This is a font test. uncomment then style in css under h6</h6> -->
+
+
+    <!-- font test. css h6 properties for experimenting -->
+
+    <!-- <h6> This is a font test. I love coffee. Dogs like to sun bath. </h6> -->
+
+
 
     <div id="answer">
-        <!--    <p id='story'><br>
-                Do not ______ to me before I have had my coffee!<br>
-                Before I get my first sip, I am ______.<br>
-                If I do not get to practice my morning routine, then the day is sure to be ______. <br>
-                First, I get my ______ ______ mug. <br>
-                Then, I brew some ______ coffee. <br>
-                Next, I mix in _____. <br>
-                I enjoy drinking this coffee while reading ______. <br>
-                Once the ritual is complete, I feel ______. <br>
-                When I miss my java break, I turn into a ___1___ ______. <br>
-                <br>
-            </p>
-        -->
+
+        <!--    STORY WILL POP UP ATER THE FORM DIELD IS FILLED OUT AND SUBMIT BUTTON CLICKED   -->
+        <!--    STORY IS PRODUCED FROM APP.JS -> VAR PARAGRAPH   -->
+
     </div>
+
+
     <script src="app.js"></script>
 
 </body>
 
 </html>
+
+
 
 <!--   input values
     _1_verb_
@@ -93,7 +100,23 @@
     _11_type_of_monster__
 -->
 
-<!--
+<!--    <p id='story'><br>
+                Do not ______ to me before I have had my coffee!<br>
+                Before I get my first sip, I am ______.<br>
+                If I do not get to practice my morning routine, then the day is sure to be ______. <br>
+                First, I get my ______ ______ mug. <br>
+                Then, I brew some ______ coffee. <br>
+                Next, I mix in _____. <br>
+                I enjoy drinking this coffee while reading ______. <br>
+                Once the ritual is complete, I feel ______. <br>
+                When I miss my java break, I turn into a ___1___ ______. <br>
+                <br>
+            </p>
+-->
+
+
+
+<!--    ***     PROJECT INFO       ***
  in a few weeks we are going to use JavaScript to make a mad libs project. Today we are going to start on the static elements of our mad Libs project using HTML and CSS. Please take the following steps.
 
 * 1. Google a mad libs story you would like to use.
